@@ -1,0 +1,50 @@
+! urxvt
+URxvt*scrollBar:  false
+URxvt*saveLines: 100000
+URxvt.font:     xft:LiberationMono:size=10:antialias=true
+
+! pearl
+URxvt.perl-ext-common: default,font-size,selection-to-clipboard,pasta,matcher,keyboard-select
+URxvt.url-launcher:   /usr/bin/firefox
+URxvt.underlineURLs:  True
+URxvt.keysym.Control-Shift-V:     perl:pasta:paste
+URxvt.matcher.button: 1 
+URxvt.keysym.M-Escape:perl:keyboard-select:activate
+URxvt.keysym.M-u:     perl:url-select:select_next
+
+! special
+*.foreground:   #e6e9f3
+*.background:   #2e2c2c
+*.cursorColor:  #e6e9f3
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
