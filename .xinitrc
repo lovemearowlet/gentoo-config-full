@@ -19,6 +19,6 @@ xrandr --output eDP-1 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --
 #wallpaper
 exec feh --bg-scale ~/.config/wp4.png &
 #dwm i3 or bspwm
-#exec dbus-launch --exit-with-session dwm
-exec bspwm
+exec dbus-launch --exit-with-session dwm
+#exec bspwm
 #exec i3
