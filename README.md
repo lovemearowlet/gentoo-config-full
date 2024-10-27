@@ -12,7 +12,10 @@ fastfetch
 kitty
 slstatus
 urxvt
+screengrab
+feh
+pipewire
 
 Current Setup:
-DWM + Rofi + SLStatus urxvt
+DWM + Rofi + SLStatus + urxvt
 ```
